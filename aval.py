@@ -18,3 +18,5 @@ for i in range(1,100001):
 print ("")
 print("we had",prime_count," prinme count")
 print("last prame number was ",last_prime_number)
+
+print(test)
