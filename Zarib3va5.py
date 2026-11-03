@@ -9,5 +9,3 @@ for i in range(1,1000):
         sum = sum + i
 
 print(sum)
-
- print(sum + 1)
