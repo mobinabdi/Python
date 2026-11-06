@@ -12,4 +12,5 @@ for beshkan in range(0,100):
             person2 = random.randrange(0,50)
         if people[person1] != 0:
             people[person1] = people[person1] - 1
+
 print(people)
