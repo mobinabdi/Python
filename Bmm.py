@@ -19,6 +19,7 @@ def Maghsom(x, y):
     result = 1
     i = 2
 
+
     while i <= x and i <= y:
 
         if x % i == 0 and y % i == 0:
@@ -34,3 +35,4 @@ def Maghsom(x, y):
 
 
 print(Maghsom(12, 18))
+print("test")
