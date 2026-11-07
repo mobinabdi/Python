@@ -10,3 +10,4 @@ for i in range(0,10000):
     cont[tas - 1] = cont[tas - 1] + 1
 
 plt.bar(range(1,7),cont)
+plt.show()
