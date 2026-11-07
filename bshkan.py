@@ -1,7 +1,7 @@
 import random
 import matplotlib.pyplot as plt
 
-%matplotlib inline
+# %matplotlib inline
 
 random.seed()
 
@@ -19,5 +19,5 @@ for beshkan in range(0, 10000):
             people[person2] = people[person2] + 1
 #sort
 #people.sort()
-plt.bar(range(0, 50), sorted(people,reverse=Ture))
+plt.bar(range(0, 50), sorted(people, reverse=True))
 plt.show()
