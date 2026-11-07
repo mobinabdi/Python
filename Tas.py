@@ -1,4 +1,5 @@
 import random
+import matplotlib.pyplot as plt
 
 random.seed()
 
@@ -8,4 +9,4 @@ for i in range(0,10000):
     tas = random.randint(1,6)
     cont[tas - 1] = cont[tas - 1] + 1
 
-print(cont)
+plt.bar(range(1,7),cont)
