@@ -1,6 +1,6 @@
 
 def ramz_is_ok(ramz_digist):
-
+    return True
 
 for ramz in range(0,100000):
     this_ramz = str(ramz).zfill(5)
