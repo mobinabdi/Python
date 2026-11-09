@@ -2,6 +2,7 @@ def jam_argham(ramz_digist):
     sum = 0
     for k in ramz_digist:
         sum= ramz_digist[k] + sum
+    return sum
 
 
 def ramz_is_ok(ramz_digist):
