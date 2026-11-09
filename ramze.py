@@ -7,7 +7,7 @@ def jam_argham(ramz_digist):
 
 def ramz_is_ok(ramz_digist):
     if ramz_digist['panj'] + ramz_digist['se'] == 14 and \
- ramz_digist['yek'] == ramz_digist['do'] * 2 - 1 and \
+       ramz_digist['yek'] == ramz_digist['do'] * 2 - 1 and \
        ramz_digist['chahar'] == ramz_digist['do'] + 1 and \
        ramz_digist['do'] + ramz_digist['se'] == 10:
             if jam_argham(ramz_digist):
