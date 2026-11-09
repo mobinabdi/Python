@@ -1,7 +1,7 @@
 def jam_argham(ramz_digist):
     sum = 0
     for k in ramz_digist:
-        sum= ramz_digist[k] + sum
+        sum += ramz_digist[k]
     return sum
 
 
