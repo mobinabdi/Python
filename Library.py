@@ -1,5 +1,5 @@
 import random
-
+# from random import randint,seed
 # print(random.random())
 
 # print(random.randint(4,10))
