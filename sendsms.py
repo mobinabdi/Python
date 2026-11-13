@@ -1,6 +1,6 @@
 import requests
 
-API_Key = "ONjDcWL6udqe0dYYfyUiSMDxe2SglEABWwZWzCFGcPlKPTHv"
+API_Key = 'ONjDcWL6udqe0dYYfyUiSMDxe2SglEABWwZWzCFGcPlKPTHv'
 text  = '''سلام پیامک تست'''
 url = "https://api.sms.ir/v1/send/verify"
 # from kavenegar import KavenegarAPI, APIException, HTTPExc'eption
@@ -12,12 +12,12 @@ def send_sms(mobile,text):
     }
     payload = {
         "mobile": mobile,
-        "templateId": text,
+        "templateId": 12345 ,
         "parameters": [
-            {"name": "Code", "value": deck_id}
+            {"name": "cat", "value": deck_id}
         ],
     }
-    r = requests.post(url,json=payload,headers=headers)
+    r = requests.post(url,json=payload,headers=headers,timeout=15)
     print(r.status_code,r.text)
 
 response = requests.get("https://deckofcardsapi.com/api/deck/new/shuffle/?deck_count=1")
